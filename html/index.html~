@@ -3,14 +3,80 @@
 
 <html>
 	<head>
-		<meta charset="utf-8" />
 		<title>Garage</title>
+		<meta charset="utf-8" />
+
+        <!-- bootstrap -->
+        
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		
+		<!-- mon style -->
+		
         <link href="../css/style.css" rel="stylesheet" type="text/css">
-		<link rel="shortcut icon" type="image/ico" href="../.img/favicon.ico"/>
+		<link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
 	</head>
 	
 	<body>
+		
+		<!-- affichage garage -->
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-12 pelouse" id="decor"></div>
+			</div>
+			<div class="row" id="led">
+				<div class="col-1 pelouse"></div>
+				<div class="col-6">
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+					<div class="led"></div>
+				</div>
+				<div class="col-5 pelouse"></div>
+			</div>
+			<div class="row" id="hauteur">
+				<div class="col-1 pelouse"></div>
+				<div class="col-1 garage"></div>
+				<div class="col-4 garage" id="laser"></div>
+				<div class="col-1 garage"></div>
+				<div class="col-5" id="chemin"></div>
+			</div>
+			<div class="row">
+				<div class="col-12 pelouse" id="decor">
+					<button classe="btn" id="av">Avant</button>
+					<button classe="btn" id="st">Stop</button>
+					<button classe="btn" id="ar">Arriere</button>
+				</div>
+			</div>
+		</div>
+		<div id="voiture"></div>
 	
+		<!-- bootstrap -->
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		
+		<!-- mon script -->
+		
+    	<script src="../../../jquery.js"></script>
 		<script type="text/javascript" src="../js/script.js"></script>
 	</body>
 </html>
